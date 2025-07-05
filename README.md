@@ -69,5 +69,5 @@ https://github.com/OpenBekenIOT/hid_download_py
 
 
 ## YAML Configuration
-See `smart_socket.yaml` in this repository.
+See `bksocket.yaml` in this repository.
 
