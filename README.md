@@ -59,8 +59,9 @@ by pushing Plug pins "inside".
 
 ## Step 3: Access PCB, solder terminals
 Once you will have the insides out :D you will locate chip and TX RX terminals, in my case chip was NAME apart from that, you also need to connect Vcc and Gmd.
-My lazy/genius approach is to locate voltage stabilizer, in 99% that will be AMS1117 Tu pridam link
-So you can use that as clue. I was using USB<->Serial That has only 5V output so I have connected that to IN on AMS1117
+My lazy/genius approach is to locate voltage stabilizer, in 99% that will be [AMS1117](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
+So you can use that as clue. I was using [USB<->Serial](https://www.google.com/search?q=usb+serial+cp2102&client=safari&sca_esv=df3771177ddad875&rls=en&biw=1512&bih=814&sxsrf=AE3TifP3M7WHgPfcH9y5i5j5JHQNiEganQ%3A1751711371333&ei=i_5oaP-RFIi7i-gPvqnjqQ4&oq=usb+serial+CP&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXVzYiBzZXJpYWwgQ1AqAggAMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IpiVQmglYzRZwAXgBkAEAmAGCAaAB8QKqAQMwLjO4AQHIAQD4AQGYAgSgAokDwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgUQABiABMICCBAAGIAEGMsBmAMAiAYBkAYKkgcDMS4zoAfuErIHAzAuM7gHggPCBwUyLTMuMcgHFA&sclient=gws-wiz-serp) That has only 5V output so I have connected that to IN on AMS1117 and GND on GND
+
 ![AMS1117-pinout-datasheet](https://github.com/user-attachments/assets/b45a4c09-6fcd-4157-bea2-08239b2e7f2a)
 
 
